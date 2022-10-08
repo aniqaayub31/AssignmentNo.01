@@ -1,4 +1,4 @@
-yourName = 'Nabil';
+yourName = 'Aniqa';
 
 // Question No. 02
 document.getElementById('q2').innerHTML = 'Hello' + ' ' + yourName + ' ' + 'would you like to learn python today?';
@@ -13,7 +13,7 @@ function titleCase(str) {
         .map((word) => word[0].toUpperCase() + word.slice(1).toLowerCase())
         .join(' ');
 }
-let titleCasetxt = titleCase("hello my name is nabil");
+let titleCasetxt = titleCase("hello my name is ANiqa");
 document.getElementById('q33').innerHTML = 'Title Case:' + ' ' + titleCasetxt;
 
 // Question No .04
@@ -28,7 +28,7 @@ document.getElementById('q5').innerHTML = quote
 
 // Question No .06
 let tabspace = '\t';
-let string = ` Hello this is Nabil Akbar ${tabspace} `;
+let string = ` Hello this is Aniqa ${tabspace} `;
 let trimString = string.trim();
 document.getElementById('q6').innerHTML = '1:' + string + trimString;
 document.getElementById('q62').innerHTML = '2:' + trimString + string;
